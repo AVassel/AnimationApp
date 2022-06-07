@@ -13,6 +13,7 @@
 		3E319B91284DF87800563364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E319B8F284DF87800563364 /* Main.storyboard */; };
 		3E319B93284DF87B00563364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E319B92284DF87B00563364 /* Assets.xcassets */; };
 		3E319B96284DF87B00563364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E319B94284DF87B00563364 /* LaunchScreen.storyboard */; };
+		3E319BA3284DFB2300563364 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E319BA2284DFB2300563364 /* Animation.swift */; };
 		D95AFF188C4813F348EC076C /* Pods_AnimationApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F6C4A3C4C34DAE3060D9B6 /* Pods_AnimationApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		3E319B92284DF87B00563364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E319B95284DF87B00563364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E319B97284DF87B00563364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E319BA2284DFB2300563364 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		A029B9A40D3E0D90A3932FB4 /* Pods-AnimationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp/Pods-AnimationApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F6C4A3C4C34DAE3060D9B6 /* Pods_AnimationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				3E319B9E284DFA2600563364 /* App */,
 				3E319BA0284DFA4300563364 /* ViewControllers */,
+				3E319BA1284DFB0600563364 /* Models */,
 				3E319B9D284DFA1500563364 /* Storyboards */,
 				3E319B9F284DFA3100563364 /* Resources */,
 			);
@@ -104,6 +107,14 @@
 				3E319B8D284DF87800563364 /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3E319BA1284DFB0600563364 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E319BA2284DFB2300563364 /* Animation.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		69AF20342848CDAE1C47EA89 /* Pods */ = {
@@ -240,6 +251,7 @@
 			files = (
 				3E319B8E284DF87800563364 /* ViewController.swift in Sources */,
 				3E319B8A284DF87800563364 /* AppDelegate.swift in Sources */,
+				3E319BA3284DFB2300563364 /* Animation.swift in Sources */,
 				3E319B8C284DF87800563364 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
